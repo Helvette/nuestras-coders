@@ -1,0 +1,93 @@
+body {
+	height: 1000px;
+	font-family: 'Fira Mono', monospace;
+}
+
+h1 {
+	margin-bottom: 8px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+hr {
+	border: 3px solid #2A2134;
+	margin-left: 18px;
+	width: 90px;
+}
+
+#contenedor {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+div:not(#contenedor) {
+	width: 160px;
+	height: 160px;
+	float: left;
+	box-shadow: 3px 3px 2px #DDDDDD;
+	margin-right: 28px;
+	margin-top: 35px;
+	opacity: 0.7;
+}
+
+p {
+	display: inline-block;
+	position:relative;
+	float: right;
+	margin-right: 8px;
+	top: 70%;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#poppy {
+	background-image: url(../img/poppy.png);
+}
+
+#rakan {
+	background-image: url(../img/rakan.png);
+}
+
+#nautilus {
+	background-image: url(../img/nautilus.png);
+}
+
+#braum {
+	background-image: url(../img/braum.png);
+	clear: left;
+}
+
+#taric {
+	background-image: url(../img/taric.png);
+}
+
+#teemo {
+	background-image: url(../img/teemo.jpg);
+	background-size: 100%;
+}
+
+div:hover:not(#contenedor) {
+	opacity: 1;
+}
+
+h5 {
+	color: #6E6E74;
+	clear: left;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #5E5E63;
+}
+
+a:hover {
+	color: black;
+	font-style: italic;
+}
+
+a:visited {
+	color: black;
+}
