@@ -86,6 +86,7 @@ a:link {
 a:hover {
 	color: black;
 	font-style: italic;
+	cursor: pointer;
 }
 
 a:visited {
